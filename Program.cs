@@ -32,7 +32,7 @@ namespace SolidRefactoringLab {
     public class ReportManager {
         private IReportFormatter formatter;
 
-        public string ReportData { get; set; }
+        public string ReportData { get; set; } = "";
 
         public ReportManager(IReportFormatter formatter) {
             this.formatter = formatter;
